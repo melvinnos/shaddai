@@ -1,0 +1,60 @@
+body {
+	background-color:#333;
+	color:#f6f6f6;
+}
+
+h4 {
+   color:#888;	
+}
+
+#myTab {
+  background-color:#CCC!important;
+}
+
+.navbar-brand {
+	color:#f6f6f6;
+	background-color:#000;
+}
+
+.navbar-nav  > li > a{
+	color:#FFF!important;
+}
+
+.navbar-nav > li  > a:hover{
+	color:#CCC!important;
+}
+
+
+.container {
+	background: url("../assets/img/la-zarza-ardia.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.panel-body p {
+	color:#555;
+}
+
+.dropdown-menu li {
+	color:#333;
+}
+
+.shadow1 {
+  margin: 40px;
+  background-color: rgb(68,68,68)!important; /* Needed for IEs */
+
+  -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6)!important;
+  -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6)!important;
+  box-shadow: 5px 5px 5px rgba(68,68,68,0.6)!important;
+
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)!important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)"!important;
+  zoom: 1;
+}
+.shadow1 .content {
+  position: relative!important; /* This protects the inner element from being blurred */
+  padding: 100px;
+  background-color: #DDD!important;
+}
